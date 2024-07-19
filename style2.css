@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    color: white;
+    background-color: black;
+    
+}
+
+#current-time {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+
+
+}
+
+nav {
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.firstsection {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    margin-top: 4%;
+
+
+}
+
+h3 {
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+.firstsection div {
+    width: 50%;
+}
+
+ul li {
+    size: 50px;
+}
+
+.div1 {
+    background-color: rgb(9, 12, 14);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+}
+
+.div2 {
+    background-color: rgb(11, 13, 14);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+.leftsection {
+    width: 45%;
+    text-align: center;
+
+}
+
+.developer-info,#skill {
+    max-width: 400px;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.rightsection {
+
+    width: 34px;
+    margin-left: 20%;
+}
+
+.rightsection img {
+    width: 60%;
+}
+
+#cod {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.cp-div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.element {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.element-1 {
+    align-items: center;
+    background-color: rgb(4, 8, 8);
+    box-shadow:
+        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    display: flex;
+
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+    width: 350px;
+}
+
+
+.element-2 {
+    align-items: center;
+    background-color: rgb(4, 8, 8);
+    
+    box-shadow:
+        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    width: 350px;
+}
+
+#exp{
+    align-items: center;
+    background-color: rgb(4, 8, 8);
+    
+    box-shadow:
+        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    width: 350px;
+}
+#project{
+    align-items: center;
+    background-color: rgb(4, 8, 8);
+    
+    box-shadow:
+        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    width: 350px;
+}
+#ep{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.proj,.cp,.edca{
+    
+    margin-inline-start: 25%;
+
+}
+
+#ep{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.edsection, .cp-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; 
+}
+
+.element, .cp-div{
+    margin-top: 20px;
+}
+
+
+.element-1, .element-2, #exp, #project {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cp-div {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.coding-section {
+    flex: 1 1 300px; 
+    margin: 10px; 
+    background-color: rgb(4, 8, 8);
+    box-shadow:
+        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px; 
+}
+
+.offcanvas-header,
+.offcanvas-body {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+
+
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-nav .left {
+    font-size: 1.2rem;
+}
+
+.bottom-nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.bottom-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    color: white;
+
+    margin-top: 100px; 
+}
+
+
+
+
+hr{
+    
+    border-style: dotted none none none;
+    border-width: 3px;
+    border-color: grey;
+    width: 100%;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+}
+.div2{
+    display: flex;
+    align-items: center;
+}
+
+
+#skill{
+    font-family:cursive;
+}
+table tr td h1{
+    font-family: 'Times New Roman', Times, serif; 
+    color: #468deb;
+}
+img:hover {
+    background-color: rgb(26, 29, 32);
+}
+
+.project-section {
+    align-items: center;
+    background-color: rgb(4, 8, 8);
+    box-shadow:
+        12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    margin: 1rem;
+    width: 350px;
+}
+
+#ep {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.section-wrapper {
+    margin-top: 50px; 
+}
+
+footer {
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+    background-color: rgb(5, 5, 5);
+    color: white;
+    padding: 20px; 
+    text-align: center; 
+    width: 100%;
+    max-width: 100%; 
+}
+
+footer h3 {
+    
+    display:contents;
+    
+    
+    color: #0ba1a1;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer form {
+    margin-top: 20px; 
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer input[type="password"],
+footer textarea {
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+
+footer input[type="submit"] {
+    background-color: #0ba1a1; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+footer input[type="submit"]:hover {
+    background-color: #0a8c8c; 
+}
+@media only screen and (max-width: 480px) {
+    .flex-container {
+       flex-direction: column;
+       align-items: center;
+     }
+   
+     nav {
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+     }
+   
+     nav ul {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+     }
+   
+     nav ul li {
+       margin-right: 10px;
+     }
+   
+     nav ul li:last-child {
+       margin-right: 0;
+     }
+   
+     img {
+       max-width: 100%;
+       height: auto;
+     }
+   
+    .section-wrapper {
+       margin-top: 20px;
+     }
+   
+    .project-section {
+       flex-direction: column;
+       align-items: center;
+       padding: 10px;
+       margin: 10px;
+       width: 100%;
+     }
+   
+    .project-info {
+       text-align: center;
+     }
+   
+    .coding-section {
+       flex-direction: column;
+       align-items: center;
+       padding: 10px;
+       margin: 10px;
+       width: 100%;
+     }
+   
+    .edsection {
+       flex-direction: column;
+       align-items: center;
+       padding: 10px;
+       margin: 10px;
+       width: 100%;
+     }
+   
+    .ed-qual {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+   
+    .ed-qual ul {
+       padding: 0;
+       margin: 0;
+       list-style: none;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+   
+    .ed-qual li {
+       margin-bottom: 10px;
+     }
+   
+    .expe {
+       flex-direction: column;
+       align-items: center;
+       padding: 10px;
+       margin: 10px;
+       width: 100%;
+     }
+   
+     #edc, #cod, #prj, #expe {
+       text-align: center;
+     }
+   
+    .cp-div {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+   
+    .cp-div ul {
+       padding: 0;
+       margin: 0;
+       list-style: none;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+   
+    .cp-div li {
+       margin-bottom: 10px;
+     }
+   
+     footer {
+       padding: 10px;
+     }
+   
+     footer h3 {
+       font-size: 18px;
+       text-align: center;
+     }
+   
+     footer p {
+       font-size: 14px;
+       text-align: center;
+     }
+   
+     footer form {
+       margin-top: 10px;
+     }
+   
+     footer input[type="text"],
+     footer input[type="email"],
+     footer input[type="password"],
+     footer textarea {
+       width: 100%;
+       padding: 10px;
+       margin-bottom: 10px;
+     }
+   
+     footer input[type="submit"] {
+       width: 100%;
+       padding: 10px;
+     }
+   
+    .leftsection,.rightsection,.element,.element-1,.element-2,.project-info,.cp-div,.coding-section,.edsection,.expe {
+       flex-direction: column;
+       align-items: center;
+     }
+   
+    .project-section,.coding-section,.edsection,.expe {
+       overflow: hidden;
+     }
+   
+     nav ul li a {
+       white-space: nowrap;
+     }
+   
+     nav ul li a img {
+       width: 20px;
+       height: 20px;
+       margin-right: 5px;
+     }
+   
+     #edc, #cod {
+       text-align: center;
+       width: 100%;
+       margin: 0 auto;
+       overflow: hidden;
+     }
+   
+     #edc h2, #cod h2 {
+       font-size: 18px;
+       margin-bottom: 10px;
+       word-break: break-word;
+     }
+}
